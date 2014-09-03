@@ -3,7 +3,7 @@
 
 This presentation
 
-`https://github.com/csand/...`
+`https://github.com/csand/ember-simple-auth-talk`
 
 
 Ember Simple Auth
