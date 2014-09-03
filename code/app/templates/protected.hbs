@@ -1,0 +1,20 @@
+<h1>
+  This is an Authenticated Route
+</h1>
+<p>
+  Your session is authenticated.
+</p>
+<p>
+  The session's email address is {{session.email}}.
+</p>
+<p>
+  The authorizer included the following <code>Authorization</code> header.
+</p>
+<p>
+  <code>
+    {{authHeader}}
+  </code>
+</p>
+<button type="button" class="btn btn-primary" {{action 'invalidateSession'}}>
+  Sign Out
+</button>

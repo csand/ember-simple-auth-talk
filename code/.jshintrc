@@ -2,7 +2,9 @@
   "predef": {
     "document": true,
     "window": true,
-    "MyAppENV": true
+    "MyAppENV": true,
+    "Pretender": true,
+    "JSON": true
   },
   "browser" : true,
   "boss" : true,

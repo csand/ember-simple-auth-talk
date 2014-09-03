@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MyApp</title>
+    <title>Simple Auth Demo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,8 @@
     <script>
       window.MyAppENV = {{ENV}};
       window.EmberENV = window.MyAppENV.EmberENV;
+      window.ENV = window.ENV || {};
+      window.ENV['simple-auth'] = window.MyAppENV.SimpleAuthENV;
     </script>
     <script src="assets/vendor.js"></script>
     <script src="assets/my-app.js"></script>
